@@ -1,0 +1,540 @@
+---
+title: "The Environmental Control of Human Goal pursuit:"
+subtitle: "a PIT Analysis "  
+author: 
+  - "Kaiyang Qin(Kevin)"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: [xaringan-themer.css,mystyle.css]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: 16:9
+      beforeInit: "macros.js"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+xaringanExtra::use_tile_view()
+xaringanExtra::use_panelset()
+xaringanExtra::use_animate_css()
+```
+
+
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#000000",
+  secondary_color = "#495266",
+  inverse_header_color = "#F1FC9D"
+)
+```
+
+
+
+## Goal-directed behavior
+
+--
+
+- Goals that people pursue can be associated with environmental cues
+
+<br>
+--
+
+<span style='font-size:100px;'>&#128243;</span>
+--
+![](arrow.png)
+--
+<span style='font-size:100px;'>&#129306;</span>
+
+--
+
+<br>
+
+- Sounds like habitual behavior
+
+<br>
+
+--
+- Whether the behavior is instigated by the anticipation of a goal or by the cue-behavior association
+
+---
+
+## Desire criteria of goal-directed behavior
+
+--
+- goal-directed actions are controlled by the motivational value of the outcome
+at the time that the action is performed(Wit & Dickinson, 2009) 
+
+<br>
+
+--
+
+- The role of value in action-outcome representations is not clear(Custers &
+Aarts, 2005; Marien et al., 2015; Watson et al., 2018)
+
+<br>
+
+
+--
+- Existing studies have tested this question through a phenomenon: PIT
+
+---
+name: go
+
+## Pavlvoian-to-Instrumental Transfer (PIT) and Specific PIT
+
+---
+template: go
+
+<br>
+
+.center[![rat paradigm](P1.png)]
+
+
+---
+template: go
+
+This pattern should be found:
+<br>
+
+.center[![rat paradigm](rat_pattern.png)]
+
+---
+template: go
+
+--
+
+- But how does this paradigm relevant to the value effect?
+
+--
+
+- Devaluation or direct comparison between two outcomes with different value
+
+--
+
+- Make the cake not tasty or subjects prefer the candy to the cake
+
+---
+template: go
+
+After outcome devaluation or directly compares outcomes with different value
+<br>
+
+.center[![rat paradigm](dev.png)]
+
+
+---
+## Specific PIT in human studies
+
+.panelset[
+.panel[.panel-name[ Value effect ]
+
+<br>
+
+
+- Existing studies implemented a free choice task to test specific PIT
+
+<br>
+
+
+
+ .center[![:scale 65%](keypress.png)]
+
+
+<br>
+
+
+- However, the results that whether value of the goal (outcome) can moderate specific PIT effect were mixed
+
+
+
+
+]
+
+.panel[.panel-name[ We argue... ]
+
+<br>
+- Free-choice task might be an issue
+
+<br>
+
+- It may confound with the task-strategic processing (e.g., instructions may overrule the specific PIT effect)
+
+<br>
+
+- A forced choice task + Interference paradigm
+
+<br>
+
+- When a cue triggers a response that is same from the one required by the task + the cue or the response associates with a high or low value outcome
+
+
+]
+
+]
+
+---
+## Flowchart of Exp 1
+
+.panelset[
+
+.panel[.panel-name[ Instrumental ]
+.center[![:scale 70%](exp1_p1.png)]
+
+
+]
+
+.panel[.panel-name[ Pavlovian ]
+.center[![:scale 70%](exp1_p2.png)]
+
+
+]
+
+.panel[.panel-name[ Transfer test ]
+.center[![:scale 70%](exp1_p3.png)]
+
+
+]
+]
+---
+## Construct a RT based paradigm and test it
+
+.panelset[
+.panel[.panel-name[ Design ]
+
+<br>
+
+
+
+ - DV: RTs (first response) and ACCs in the test phase.
+
+<br>
+
+
+ - 2(Response value high vs. low)*2(Pavlovian cue value high vs.low ) within participants design
+
+<br>
+
+  
+- 42 participants recruited, data from two participants were excluded.
+
+]
+
+.panel[.panel-name[ Hypotheses ]
+
+<br>
+
+ RTs: Participants respond faster when the cue and the response lead to the same outcome, and this effect is more pronounced on the high value (20cents) cue condition.
+
+<br>
+
+ ACCs (exploratory): Participants respond more accurately when the cue and the response lead to the same outcome, and this effect is more pronounced on the high value (20cents) cue condition.
+
+]
+
+]
+
+
+---
+## Results of Exp 1
+.panelset[
+.panel[.panel-name[ RTs ]
+
+Planned contrast:*F* (1, 39) = 6.49, *p* = .015, *ƞ<sub>p</sub><sup>2</sup>* = .14 [0.017; 0.316]
+
+.center[![:scale 60%](exp1_rt.jpg)]
+]
+
+.panel[.panel-name[ ACCs ]
+
+Planned contrast:*F* (1, 39) = 0.03 *p* =.868
+
+.center[![:scale 60%](exp1_acc.jpg)]
+]
+
+.panel[.panel-name[ replicatable ? ]
+
+<br>
+
+ .center[- More trials in the test phase (40 to 160)]
+
+<br>
+
+ .center[- High value coin (20 cents to 50 cents)]
+ 
+ <br>
+ 
+ .center[- More participants: 57 participants (data from one participants were excluded)]
+
+]
+
+]
+
+---
+## Results of Exp 2
+.panelset[
+.panel[.panel-name[ RTs ]
+
+Planned contrast: *F* (1, 55) = 4.40, *p* = .041, *ƞ<sub>p</sub><sup>2</sup>* = .07 [0.002; 0.205]
+
+.center[![:scale 60%](exp2_rt.jpg)]
+]
+
+.panel[.panel-name[ ACCs ]
+
+Planned contrast:*F* (1, 55) = 7.36, *p* = .009, *ƞ<sub>p</sub><sup>2</sup>* = .12 [0.018; 0.260]
+
+.center[![:scale 60%](exp2_acc.jpg)]
+]
+]
+
+
+---
+## Conclusions and the further question
+
+--
+
+- Specific PIT effect is sensitive to the value of outcome
+
+<br>
+--
+
+- Supported a goal-directed account for responses to cues (at least in behavior preparation level)
+
+<br>
+--
+
+- Whether the manipulation of outcome value may also work for effort spending (controlled process)
+
+
+
+
+---
+## Measure efforts 
+
+--
+
+ .center[![](keypress.gif)]
+
+
+--
+
+- But in a 'forced' way...
+
+
+--
+
+- Combine the training phases with the Effort mobilization task (Marien et al., 2015)
+
+--
+
+- First response (replicate the previous results), and rest of the responses (effort measure)
+
+--
+
+- Explore whether the instruction (e.g., you need to respond as quick as possible) plays a role in the effects
+
+
+
+--
+
+- An online experiment
+---
+## Flowchart of the effort measure experiment (an online exp)
+
+
+.panelset[
+
+
+.panel[.panel-name[Instrumental]
+.center[![:scale 70%](exp_e1.png)]
+
+
+]
+
+.panel[.panel-name[Pavlovian]
+.center[![:scale 70%](exp_e2.png)]
+
+]
+
+.panel[.panel-name[Transfer test]
+.center[![:scale 68%](exp_e3.png)]
+
+
+]
+]
+---
+## Design and hypotheses 
+
+.panelset[
+.panel[.panel-name[ Design ]
+
+- DV : RTs and ACCs
+
+- 2(response value: high vs. low)x2(cue value: high vs. low)x2(instruction: with instruction vs. without instruction) mixed design
+
+
+- First response and effort measure
+
+- 160 participants were recruited, data from 29 participants were excluded
+
+ 
+]
+
+.panel[.panel-name[ Hypotheses ]
+
+- First response: replicate the [RTs pattern](file:///C:/Users/VULCAN/Desktop/presentation/presentation.html?panelset2=hypotheses-&panelset9=value-effect-2&panelset10=instrumental-2&panelset11=design-3&panelset12=rts-3&panelset13=rts-4&panelset14=instrumental2&panelset15=design-4&panelset16=first-response-rts-3&panelset17=first-response-rts-4#23), and explore the effect of instructions
+
+- 2(Response value: high vs. low)x2(Cue value: high vs. low)x2(instructions: with instructions vs. without) ANOVA
+
+- Effort measure: a three-way interaction effect among response value, cue value and 19 times of keypresses (Also explore the effect of instructions)
+
+- 2x2x19(responses after the first response)x2 ANOVA
+
+]
+]
+---
+## Results of the Exp
+
+.panelset[
+.panel[.panel-name[ first response RTs ]
+
+ANOVA: no significant main effect and interaction effect were observed [(see table)](file:///C:/Users/VULCAN/Desktop/presentation/presentation.html?panelset8=value-effect-2&panelset9=instrumental-2&panelset10=design-3&panelset11=rts-3&panelset12=rts-4&panelset13=instrumental2&panelset14=design-4&panelset15=first-response-rts-2#47)
+ 
+Planned contrast (dropped the IV instructions): *F*(1, 135) =6.01, *p* = .016, *ƞ<sub>p</sub><sup>2</sup>* = .04 [0.004; 0.111]
+ 
+ .center[![:scale 40%](col_rts.png)]
+
+
+]
+.panel[.panel-name[ first response ACCs ]
+
+ ANOVA: no significant main effect and interaction effect were observed [(see table)](file:///C:/Users/VULCAN/Desktop/presentation/presentation.html?panelset8=value-effect-2&panelset9=instrumental-2&panelset10=design-3&panelset11=rts-3&panelset12=rts-4&panelset13=instrumental2&panelset14=design-4&panelset15=first-response-rts-2#48)
+ 
+ Planned contrast (dropped the IV instructions):*F*(1, 135) =3.09, *p* = .081
+
+  .center[![:scale 40%](co_acc.png)]
+  
+]
+
+
+.panel[.panel-name[ effort measure ]
+  
+ ANOVA: the main effect of instructions (*F*(1, 134) = 4.42, *p* = .032, *ƞ<sub>p</sub><sup>2</sup>* = .03 [0.001; 0.095]) and the main effect of responses (*F*(1, 134) = 37.49, *p* = <.001, *ƞ<sub>p</sub><sup>2</sup>* = .22 [0.191; 0.238]) were observed. No other significant main effects and interaction effects were observed  [(see table)](file:///C:/Users/VULCAN/Desktop/presentation/presentation.html?panelset9=value-effect-2&panelset10=instrumental-2&panelset11=design-3&panelset12=rts-3&panelset13=rts-4&panelset14=instrumental2&panelset15=design-4&panelset16=first-response-rts-3&panelset17=first-response-rts-4#50)
+
+
+
+]
+
+.panel[.panel-name[ effort high value ]
+
+.center[![:scale 50%](effort_rts.png)]
+
+]
+
+.panel[.panel-name[ effort low value ]
+
+.center[![:scale 50%](effort_low.png)]
+
+
+]
+
+
+]
+
+
+---
+## Conclusions and future studies
+
+--
+
+- Replicated the pattern of RTs in the previous research line
+
+--
+
+- Instruction effect: inconclusive
+
+
+--
+
+### Why did not find the effort effect?
+
+--
+
+- Participants did not get paid when they did the effort mobilization task
+
+--
+
+- What has been trained is not what they performed in the effort mobilization task.
+
+---
+class: center middle animated bounceInLeft fadeOutLeft
+
+<span style='font-size:50px;'>Thank you for your attention</span>
+
+**Best wishes for the Year of Ox!**
+
+
+---
+## Results of the Exp
+
+.panelset[
+.panel[.panel-name[ first response RTs ]
+
+.pull-left[![:scale 100%](rts_exp_e1.png)]
+
+.pull-right[<br> <br>instruction group: *F*(1, 70) = 2.10, *p* = .152 <br> <br> non-instruction group: *F*(1, 64) =4.17, *p* = .045, *ƞ<sub>p</sub><sup>2</sup>* = .06 [0.001; 0.177]]
+
+]
+
+.panel[.panel-name[ first response ACCs ]
+
+.pull-left[![:scale 100%](acc_exp_e1.png)]
+
+.pull-right[<br> <br>instruction group: *F*(1, 70) = 2.08, *p* = .154 <br> <br>  non-instruction group: *F*(1, 64) = 1.01, *p* = .320]
+
+]
+
+
+.panel[.panel-name[ effort measure high value cue ]
+
+.pull-left[![:scale 110%](exp_high_effort_rts.png)]
+
+.pull-right[<br> <br>Three-way interaction: *F*(18, 2916) = 1.30, *p* = .179]
+
+
+]
+
+
+.panel[.panel-name[ effort measure low value cue ]
+
+.center[![:scale 80%](exp_low_effort_rts.png)]
+
+]
+
+]
+
+---
+
+### ANOVA table first response RTs
+
+
+.center[![](rts_first.png)]
+
+
+---
+### ANOVA table first response ACCs
+
+.center[![](acc_first.png)]
+
+
+---
+### ANOVA table effort measure
+
+.center[![](effort_measure.png)]
+
